@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manoj K | Digital Business & Tech Professional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card: #020617;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent2: #22c55e;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont;
+      background: linear-gradient(120deg, #020617, #0f172a);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 30px;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+
+    .profile-card {
+      background: linear-gradient(180deg, #020617, #020617);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    }
+
+    .name {
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+
+    .title {
+      color: var(--accent);
+      font-weight: 500;
+      margin: 8px 0 16px;
+    }
+
+    .tagline {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .contact {
+      margin-top: 20px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .contact div { margin-bottom: 6px; }
+
+    .hero {
+      padding: 30px;
+      background: radial-gradient(circle at top left, #020617, #020617);
+      border-radius: 24px;
+      border: 1px solid rgba(148,163,184,0.1);
+    }
+
+    .hero h2 {
+      margin-top: 0;
+      font-size: 1.6rem;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    h3 {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+      border-left: 4px solid var(--accent);
+      padding-left: 12px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: linear-gradient(180deg, #020617, #020617);
+      border-radius: 18px;
+      padding: 22px;
+      border: 1px solid rgba(148,163,184,0.08);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 18px 35px rgba(0,0,0,0.45);
+    }
+
+    .card h4 {
+      margin-top: 0;
+      color: var(--accent2);
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    li {
+      margin-bottom: 6px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .skills span {
+      display: inline-block;
+      padding: 6px 12px;
+      margin: 6px 6px 0 0;
+      border-radius: 999px;
+      background: rgba(56,189,248,0.12);
+      color: var(--accent);
+      font-size: 0.85rem;
+      border: 1px solid rgba(56,189,248,0.3);
+    }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 60px;
+    }
+
+    @media (max-width: 768px) {
+      header {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <header>
+      <div class="profile-card">
+        <div class="name">Manoj K</div>
+        <div class="title">Digital Business • Software • Automation</div>
+        <p class="tagline">
+          B.Com (Computer Applications) graduate with strong interest in fintech, trading systems,
+          automation, and scalable digital businesses. Hands-on with web apps, AI tools, and low-code workflows.
+        </p>
+        <div class="contact">
+          <div>📍 India</div>
+          <div>📧 yourname@email.com</div>
+          <div>🌐 www.manojraj.store</div>
+          <div>🔗 LinkedIn: linkedin.com/in/yourprofile</div>
+        </div>
+      </div>
+
+      <div class="hero">
+        <h2>Professional Summary</h2>
+        <p class="tagline">
+          Entrepreneurial technologist blending business, accounting, and software skills.
+          Experience with Jenkins, Python, Linux, GitHub, Notion, and AI agents.
+          Building real-world products including e-commerce systems, trading tools,
+          and web-based casino platforms with a focus on execution and automation.
+        </p>
+      </div>
+    </header>
+
+    <section>
+      <h3>Core Skills</h3>
+      <div class="skills">
+        <span>Python 3</span>
+        <span>Jenkins (Advanced)</span>
+        <span>Linux (Mint / XFCE)</span>
+        <span>Git & GitHub</span>
+        <span>HTML & CSS</span>
+        <span>Low-Code Development</span>
+        <span>AI Agents & Automation</span>
+        <span>Notion Systems</span>
+        <span>Digital Marketing</span>
+        <span>Accounting Basics</span>
+      </div>
+    </section>
+
+    <section>
+      <h3>Projects & Experience</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Web-Based Trading & Casino Platforms</h4>
+          <ul>
+            <li>Designed architecture for cash & crypto-based web applications</li>
+            <li>Focused on fast MVP launch and scalable backend concepts</li>
+            <li>Explored automation using AI tools and scripts</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>E-commerce & Amazon Seller</h4>
+          <ul>
+            <li>Converted offline jewelry business into online sales model</li>
+            <li>Product photography, listing optimization, and branding</li>
+            <li>Cash-flow focused execution strategy</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h4>Automation & Productivity Systems</h4>
+          <ul>
+            <li>Built Notion dashboards for business tracking</li>
+            <li>Used Jenkins for CI/CD and automation workflows</li>
+            <li>Experimented with AI agents to replace manual roles</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3>Education</h3>
+      <div class="card">
+        <h4>B.Com – Computer Applications</h4>
+        <p class="tagline">
+          Subjects: Corporate Accounting, Management Accounting, Auditing,
+          Visual Programming, IT Concepts, Oracle & SQL
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h3>Career Focus</h3>
+      <div class="card">
+        <ul>
+          <li>Entry-level software / automation roles</li>
+          <li>Fintech, trading platforms, and SaaS products</li>
+          <li>Startups and execution-driven teams</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer>
+      © 2025 Manoj K • Built as a personal web resume
+    </footer>
+
+  </div>
+</body>
+</html>
